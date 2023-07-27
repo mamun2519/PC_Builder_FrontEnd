@@ -1,0 +1,453 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co/rtBPkDW/adm.jpg",
+    "productName": "AMD Athlon 200GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics",
+    "category": "processor",
+    "price": "7800",
+    "status": "In Stock",
+    "rating": "4",
+    "description": "AMD Athlon Pro 200GE is a dual-core Processor with SMT-enabled, so it has four threads active and 512 KB L2 cache per core, and 4 MB shared L3 cache. The base clock is 3.20 GHz. The primary limitation is PCI-Express 3.0 at x8 for graphics. Raven Ridge is an unlocked processor, that enabled multiplier we managed to get a proper 3.9 GHz out of the two cores at a voltage of 1.4 volts. One thing you do need to keep in mind is that the memory will be restricted to 2667 MHz maximum (dual-channel).",
+    "averageRating": "4.7",
+    "brand": "AMD RYZEN",
+    "keyFeatures": {
+      "model": "Athlon 200GE",
+      "speed": "Base Clock Speed 3.2GHz",
+      "port": "AM4",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co/R7qFX47/amd-ryzen-3-4100-01-500x500.jpg",
+    "productName": "AMD Ryzen 3 4100 Processor",
+    "category": "processor",
+    "price": "11300",
+    "status": "In Stock",
+    "rating": "4",
+    "description": "AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This AMD processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. This Processor provides DDR4 Up to 3200MHz memory with 2 memory channels. It has AMD StoreMI Technology, AMD Zen 2 Core Architecture, and AMD Ryzen VR-Ready Premium. The built-in AMD StoreMI Technology is a fast and easy way to expand and accelerate the storage in a desktop PC with an AMD Ryzen processor. AMD StoreMI technology is a powerful tool for PC enthusiasts that want to improve load times, boot times, file management, or system responsiveness. Whatever your storage acceleration needs, AMD StoreMI technology automatically pairs your most-used files with an SSD cache for peak performance. AMD StoreMI technology can get files running at SSD-like speeds. Simply add an SSD to your system and let StoreMI do the rest. It also features the AMD Ryzen VR-Ready Premium for the best possible VR experiences. It comes with Wraith Stealth Cooling Solution. These AMD Ryzen processors are designed to bring you the ultimate, high-performance computing experience. The latest revolutionary AMD multi-threaded processing technology gives you blazing fast performance when you work or play. This AMD Processor. Support AMD Socket AM4 Socket With AMD SenseMI technology and Powerful Overclocking Utility for AMD Ryzen processor. AMD Ryzen 3 4100 Processor offers a 3-years warranty(No Warranty for Fan or Cooler)",
+    "averageRating": "4.9",
+    "brand": "AMD RYZEN",
+    "keyFeatures": {
+      "model": "Ryzen 3 4100",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "AM4",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co/TgRywHk/core-i3-10105-001-500x500.jpg",
+    "productName": "Intel Core i3 10105 10th Gen Comet Lake Processor",
+    "category": "processor",
+    "price": "11300",
+    "status": "In Stock",
+    "rating": "4",
+    "description": "AMD Ryzen 3 4100 Processor has 4 processor cores, 8 threads, and an astonishingly efficient 45-65W TDP. This processor stands with a Base Clock of 3.8GHz and a Maximum Boost Clock of 4.0GHz. It has 256KB L1 Cache. 2MB L2 Cache, 4MB L3 Cache with AM4 Package, and TSMC 7nm FinFET CMOS. This AMD processor is built with PCIe 3.0 x8 and Wraith Spire Thermal Solution. This Processor provides DDR4 Up to 3200MHz memory with 2 memory channels. It has AMD StoreMI Technology, AMD Zen 2 Core Architecture, and AMD Ryzen VR-Ready Premium. The built-in AMD StoreMI Technology is a fast and easy way to expand and accelerate the storage in a desktop PC with an AMD Ryzen processor. AMD StoreMI technology is a powerful tool for PC enthusiasts that want to improve load times, boot times, file management, or system responsiveness. Whatever your storage acceleration needs, AMD StoreMI technology automatically pairs your most-used files with an SSD cache for peak performance. AMD StoreMI technology can get files running at SSD-like speeds. Simply add an SSD to your system and let StoreMI do the rest. It also features the AMD Ryzen VR-Ready Premium for the best possible VR experiences. It comes with Wraith Stealth Cooling Solution. These AMD Ryzen processors are designed to bring you the ultimate, high-performance computing experience. The latest revolutionary AMD multi-threaded processing technology gives you blazing fast performance when you work or play. This AMD Processor. Support AMD Socket AM4 Socket With AMD SenseMI technology and Powerful Overclocking Utility for AMD Ryzen processor. AMD Ryzen 3 4100 Processor offers a 3-years warranty(No Warranty for Fan or Cooler)",
+    "averageRating": "4.9",
+    "brand": "Intel",
+    "keyFeatures": {
+      "model": " Intel Core i3 10105",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2666MHz",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/VM5S2kZ/ryzen-3500-500x500.jpg",
+    "productName": "AMD RYZEN 5 3500 Processor",
+    "category": "processor",
+    "price": "11300",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "The ASRock A520M-HVS AMD AM4 Micro ATX Motherboard is a versatile and feature-rich option for computing needs. It supports AMD AM4 Socket Ryzen processors, offering a 6 Phase Power Design for reliable performance. With support for DDR4 4733+ (OC) RAM, it ensures fast and efficient multitasking. The motherboard features multiple connectivity options, including PCIe 3.0 x16 and PCIe 3.0 x1 slots, D-Sub and HDMI graphics output options, and various USB ports. It also includes Realtek Gigabit LAN for reliable networking. The Ultra M.2 interface enables high-speed data transfer, and the motherboard supports AMD Smart Access Memory for enhanced GPU performance. With its premium power chokes, high-density glass fabric PCB, and full spike protection, the motherboard ensures stability and durability.",
+    "averageRating": "4.9",
+    "brand": "AMD RYZEN",
+    "keyFeatures": {
+      "model": "RYZEN 5 3500",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2666MHz",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co/RNsGdYX/a520m-hvs-01-500x500.webp",
+    "productName": "ASRock B450M-HDV R4.0 AMD Motherboard",
+    "category": "Motherboard",
+    "price": "9800",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "AMD is preparing two variants for the sub-$150 US market, the Ryzen 5 3500X & the Ryzen 5 3500. Both processors feature 6 cores and 6 threads which means that there won't be multi-threading support on either chip, however, given their price point and the market they are aiming, a cut-down core configuration is expected. As such, these would be the first Ryzen 3000 parts with no multi-threading support. Starting off with the AMD Ryzen 5 3500X, we are looking at a base clock of 3.6 GHz and a boost clock of 4.1 GHz. The processor features 32 MB of cache, a 65W TDP and a price close to $150 US. It is highly liked that AMD would choose a $149.99 US price for this specific chip. In official slides posted by BullsLab, the chip comes with 24 PCIe Gen 4 lanes, support for 3200 MHz memory and we also get to take a look at some performance benchmarks where the chip is highly competitive.The Ryzen 5 3500, on the other hand, has pretty much the same speeds and even the same clock speeds of 3.6 GHz base and 4.1 GHz boost. The difference is that it features 16 MB of cache versus 32 MB on the Ryzen 5 3600X. It would result in a small performance penalty but we are also looking at a lower price point. This processor also has 03 years warranty (No Warranty for Fan or Cooler).",
+    "averageRating": "4.9",
+    "brand": "ATX",
+    "keyFeatures": {
+      "model": " A520M-HVS",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2 x DIMM",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co/LSXWWfC/b450m-hdv-r4-500x500.jpg",
+    "productName": "ASRock B450M-HDV R4.0 AMD Motherboard",
+    "category": "Motherboard",
+    "price": "17800",
+    "status": "In Stock",
+    "rating": "4",
+    "description": "ASRock A320M-HDV R4.0 AMD Motherboard built in AMD AM4 Socket with AMD Promontory B450 chipset.This Motherboard supports SATA3 6Gb/s M.2 modules, and is compatible with  ASRockâ€™s U.2 Kit for installing some of the worldâ€™s fastest U.2 PCIe Gen3 x4 SSDs.",
+    "averageRating": "4.9",
+    "brand": "ASRock",
+    "keyFeatures": {
+      "model": " ASRock B450M-HDV R4.0",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2 x DIMM",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "7",
+    "image": "https://i.ibb.co/V9HWwFw/b450m-500x500.jpg",
+    "productName": "Gigabyte AMD B450M Gaming Motherboard",
+    "category": "Motherboard",
+    "price": "11300",
+    "status": "In Stock",
+    "rating": "4",
+    "description": "Gigabyte AMD B450M Gaming Motherboard Supports AMD 2nd Generation Ryzenâ„¢/ Ryzenâ„¢ with Radeonâ„¢ Vega Graphics/ 1st Generation Ryzenâ„¢ Processors.Dual Channel Non-ECC Unbuffered DDR4, 2 DIMMs. HDMI, DVI-D, D-sub Ports for Multiple Display.Ultra-Fast PCIe Gen3 x4 M.2 with PCIe NVMe & SATA mode support,GIGABYTE Exclusive 8118 Gaming LAN with Bandwidth Management.RGB Fusion supports RGB LED Strips in 7-Colors.High Quality Audio Capacitors and Audio Noise Guard with LED Trace Path Lighting.Smart Fan 5 features 5 Temperature Sensors and 3 Hybrid Fan Headers. APP Center Including EasyTuneâ„¢ and Cloud Stationâ„¢ Utilities",
+    "averageRating": "4.2",
+    "brand": "Gigabyte",
+    "keyFeatures": {
+      "model": " Gigabyte AMD B450M",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2 x DIMM",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "3 Years (No Warranty for Fan or Cooler)"
+    },
+    "review": []
+  },
+  {
+    "id": "9",
+    "image": "https://i.ibb.co/yW6PdVr/panther-golden-4gb-ddr4-2666mhz-01-500x500.jpg",
+    "productName": "Apacer Panther Golden 4GB DDR4 2666MHZ Desktop RAM",
+    "category": "RAM",
+    "price": "1750",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "The Apacer Panther Golden 4GB DDR4 2666MHZ RAM has a high level of compatibility. It is backward compatible with Intel and AMD series systems. This pattern is in the shape of a claw. On top, the unique and clever heat spreader design incorporates the panther's claws. It includes XMP 2.0 overclocking that is simple and easy to use, and it consumes very little power. The Apacer PANTHER-GOLDEN 4GB DDR4 2666MHZ Desktop RAM comes with a Lifetime warranty.",
+    "averageRating": "4.8",
+    "brand": "Panther",
+    "keyFeatures": {
+      "model": "Panther Golden 4GB DDR4 2666MHZ",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2666MHZ",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "Lifetime Warranty",
+      "capacity": "8GB"
+    },
+    "review": []
+  },
+  {
+    "id": "10",
+    "image": "https://i.ibb.co/mcHYhg1/ripjaws-v-01-500x500.jpg",
+    "productName": "G.Skill Ripjaws V 4GB DDR4 2666MHz Red Heatsink Desktop RAM",
+    "category": "RAM",
+    "price": "1800",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "G.Skill Ripjaws V Desktop RAM comes with 4GB 2666MHz DDR4 Capacity with Red Heatsink. Ripjaws V series is the newest DDR4 memory designed for maximum compatibility and cutting-edge performance with the latest Intel Core processors. This Desktop RAM is Built with the finest components, tested under the most rigorous conditions, and offered in five color options, Ripjaws V is the perfect choice for building a new performance system or for a simple memory upgrade. This RAM is featured with Tested Speed 2666MHz, Tested Latency 15-15-15-35, Tested Voltage 1.20V, Unbuffered, Non-ECC, SPD Speed 2133MHz, SPD Voltage 1.20V. The Ripjaws V series RAM is designed with a sleek new look, but also available in five different colors: Blazing Red, Steel Blue, Radiant Silver, Gunmetal Gray, and Classic Black. Whether you're a modder seeking matching hues or looking to build a stunning new system, Ripjaws V is a superb selection. Continuing the tradition of aftermarket CPU cooler compatibility, Ripjaws V is designed with a 42mm module height suitable for most oversized CPU heatsinks. This latest G.Skill Ripjaws V 4GB DDR4 2666MHz Red Heatsink Desktop RAM has lifetime warranty",
+    "averageRating": "4.8",
+    "brand": "Ripjaws",
+    "keyFeatures": {
+      "model": "Ripjaws V",
+      "speed": "3.8GHz; Up to 4.0GHz",
+      "port": "2666MHZ",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "Lifetime Warranty",
+
+      "capacity": "8GB"
+    },
+    "review": []
+  },
+  {
+    "id": "11",
+    "image": "https://i.ibb.co/kyW6rs8/xlr8-01-500x500.jpg",
+    "productName": "PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM",
+    "category": "RAM",
+    "price": "1800",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "PNY XLR8 Desktop Gaming RAM comes with 6GB DDR4 3200MHz CL16 (PC4-25600) Frequency Speed. It's extreme performance pushes the limit with aggressive speed, low latency, and extreme overclocking capabilities. This New Gaming RAM is also support XMP 2.0 which is Super easy for overlocking and runs at top speed. In this RAM, It is engineered with heat spreaders to keep your device running cool for an ultra-real gaming experience. The PNY's premium XLR8 modules combine top-tier components and select ICs for aggressive speed, low latency, bullet-proof reliability, and the extreme overclocking capabilities that serious gamers demand. Overclocking is made easier with Intel XMP compatibility. And PNY's radically stylish XLR8 heat spreaders dispense with the heat of battle and look fierce doing it. This exclusive new PNY's premium XLR8 memory features our most aggressive speeds, highest bandwidth, lowest latency and power consumption, and most advanced thermal performance for maximum PC stability and responsiveness during memory-intensive gaming and application use and also It's modules are rigorously engineered and tested to ensure peak performance in even the most challenging gaming environments. This new PNY XLR8 Desktop Gaming RAM has Lifetime warranty.",
+    "averageRating": "4.8",
+    "brand": "Ripjaws",
+    "keyFeatures": {
+      "model": "PNY XLR8",
+      "speed": "3200MHz (PC4-25600)",
+      "port": "2666MHZ",
+      "type": "DDR4",
+      "resolution": "PCI Express PCIe 3.0",
+      "warranty": "Lifetime Warranty",
+      "capacity": "8GB"
+    },
+    "review": []
+  },
+  {
+    "id": "12",
+    "image": "https://i.ibb.co/fSFysq4/vp-350-01-500x500.webp",
+    "productName": "Revenger VP 350 Watt Power Supply            ",
+    "category": "Power Supply Unit",
+    "price": "1400",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "The Revenger VP 350 Watt Power Supply is a high-quality power supply unit designed to power your computer components in a dependable and efficient manner. It can provide constant and stable power to your system with a continuous power output of 350 watts. The power supply has a 120 mm fan to assist disperse heat and keep the operating temperature low. This power supply is designed to work with a wide range of input voltages, ranging from 100VAC to 240VAC, and a frequency range of 47-63Hz. It has an AC input of 230VAC with a current of 4A and a frequency range of 47-63Hz. This makes it compatible with most power outlets in different regions. The Revenger VP 350 Watt power supply features a DC output of +3.3V, +5V, +12V, -12V, and +5Vsb, which ensures stable and reliable power delivery to all your components. It also has a total power output of 350 watts, which means it can power most mid-range systems with ease. This Revenger VP 350 Watt Power Supply is a reliable and efficient power supply unit that can provide stable power to your computer components. With its wide range of compatibility and reliable performance, it is an excellent choice for anyone looking to upgrade their power supply unit.",
+    "averageRating": "4.8",
+    "brand": "Revenger",
+    "keyFeatures": {
+      "model": "VP 350",
+      "speed": "3200MHz (PC4-25600)",
+      "port": "2666MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 230VAC 4A 47-63Hz",
+      "warranty": "Lifetime Warranty"
+    },
+    "review": []
+  },
+  {
+    "id": "13",
+    "image": "https://i.ibb.co/vJzMp67/pt-p200b-01-500x500.webp",
+    "productName": "Power Train PT-P200B 200W Power Supply ",
+    "category": "Power Supply Unit",
+    "price": "1500",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "The POWER TRAIN PT-P200B is a reliable and efficient power supply option. It features a sleek SGCC 0.5MM design and operates at a voltage of 220V. With a power output of 200W, this power supply is capable of delivering ample power to your devices. It comes with multiple connectors, including 1 IDE, 2 SATA/550MM, P8(4+4)/450MM, and 24pin(20+4P)/400MM, allowing for compatibility with a wide range of devices. To ensure optimal performance and prevent overheating, the PT-P200B is equipped with a 12CM temperature control fan that effectively cools the unit during operation. With its robust construction and efficient cooling mechanism, the POWER TRAIN PT-P200B power supply is a reliable choice for powering your electronic devices.",
+    "averageRating": "4.8",
+    "brand": "Power Train",
+    "keyFeatures": {
+      "model": "PT-P200B ",
+      "speed": "3200MHz (PC4-25600)",
+      "port": "2666MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 230VAC 4A 47-63Hz",
+      "warranty": "Lifetime Warranty"
+    },
+    "review": []
+  },
+  {
+    "id": "14",
+    "image": "https://i.ibb.co/4ZBhk5c/mwe-450w-v2-500x500.jpg",
+    "productName": "Cooler Master MWE 450W V2 Non-Modular 80 Plus Bronze Power Supply ",
+    "category": "Power Supply Unit",
+    "price": "4400",
+    "status": "In Stock",
+    "rating": "5",
+    "description": "The MWE Bronze V2 offers a simple, reliable way to power your system safely and efficiently at a low cost. The 80 PLUS Bronze efficiency rating, DC-to-DC + LLC circuit design, single +12V rail, active PFC, and temperature sensitive HDB fan offer a power supply unit that stays true to its original purpose. This PSU will handle all your core computing needs with none of the hassles or challenges of additional specialty features, software synchronization, or other bells and whistles. Just plug it into your system and get to work. For a great mid-tier computing experience, you can't go wrong with the MWE Bronze V2.",
+    "averageRating": "4.8",
+    "brand": "Power Train",
+    "keyFeatures": {
+      "model": ": Cooler Master MWE 450W V2",
+      "speed": "3200MHz (PC4-25600)",
+      "port": "2666MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 230VAC 4A 47-63Hz",
+      "warranty": "Lifetime Warranty"
+    },
+    "review": []
+  },
+
+  {
+    "id": "15",
+    "image": "https://i.ibb.co/2htWjQH/120gb-ssd-500x500.jpg",
+    "productName": "Gigabyte 120GB Solid State Drive (SSD)",
+    "category": "Storage",
+    "price": "2000",
+    "status": " In Stock ",
+    "rating": "4.5",
+    "description": "Form Factor: 2.5-inch internal SSD . Interface: SATA 6.0Gb/s . Total Capacity: 120GB*. Warranty: Limited 3-years . Sequential Read speed : up to 500 MB/s** Sequential Write speed : up to 380 MB/s**. TRIM & S.M.A.R.T supported",
+    "averageRating": "4.3",
+    "brand": "Gigabyte",
+    "keyFeatures": {
+      "model": "Gigabyte 120GB",
+      "speed": "2400MHz (PC4-19200)",
+      "port": "1333MHZ",
+      "type": "Moduler",
+      "resolution": "PAC Input 120VAC 2A 47-60Hz",
+      "warranty": "2 Years Limited Warranty",
+      "capacity": "120GB"
+    },
+    "review": []
+  },
+
+  {
+    "id": "16",
+    "image": "https://i.ibb.co/Wt8FGYK/cs900-500x500.jpg",
+    "productName": "PNY CS900 120GB 2.5 SATA III Internal SS            ",
+    "category": "Storage",
+    "price": "1200",
+    "status": "In Stock",
+    "rating": "3.9",
+    "description": "PNY CS900 120GB is the ideal solution for a mainstream solid state drive (SSD) upgrade from a hard disk drive (HDD). The CS900 delivers all the most sought after features at an excellent value, and is designed for an easy and cost-effective HDD replacement in the PC system to help realize faster boot times, quicker application launches and better overall system performance. With no moving parts, PNY CS900 is highly durable, less likely to fail, and supports up to 3 years of warranty",
+    "averageRating": "3.7",
+    "brand": "PNY",
+    "keyFeatures": {
+      "model": "PNY CS900",
+      "speed": "1600MHz (PC3-12800)",
+      "port": "1066MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 100VAC 1A 47-63Hz",
+      "warranty": "1 Year Limited Warranty",
+      "capacity": "120GB"
+    },
+    "review": []
+  },
+  {
+    "id": "17",
+    "image": "https://i.ibb.co/nmP63B4/s700-500x500.jpg",
+    "productName": "HP S700 120GB 2.5 SSD (Solid State Drive)",
+    "category": "Storage",
+    "price": "5000",
+    "status": "In Stock",
+    "rating": "4.2",
+    "description": "Description Protect your data files with the HP SSD S700 series By using 3D NAND Flash and three-dimensional stacking method, HP S700 series can provide higher storage density and capacity and is more reliable.Better performance, more durable The advanced wear overall balancing algorithm of HP S700 series increase the TBW (Total Bytes Written) and improve the durability of SSD, which fully meet the users requirement for design, video editing, games programming office and various storage applications.",
+    "averageRating": "4.0",
+    "brand": "HP",
+    "keyFeatures": {
+      "model": ": HP S700 120GB",
+      "speed": "3000MHz (PC4-24000)",
+      "port": "2133MHZ",
+      "type": "Moduler",
+      "resolution": "PAC Input 220VAC 3A 47-64Hz",
+      "warranty": "3 Years Limited Warranty",
+      "capacity": "120GB"
+    },
+    "review": []
+  },
+  {
+    "id": "18",
+    "image": "https://example.com/image5.jpg",
+    "productName": "HP EX900 M.2 120GB PCIe NVMe Internal SSD",
+    "category": "Storage",
+    "price": "800",
+    "status": "In Stock",
+    "rating": "4.9",
+    "description": "Revolutionize large file handling and response times with HP PCIe NVME TLC 120GB SSD M.2 Drive, a remarkably affordable and innovative PCIe-based NVMe memory SSD storage solution.Streamline your workflows Tackle large files and reduce your work time from hours to minutes with a solid state drive powered by M.2 PCIe NVMe technology.",
+    "averageRating": "4.8",
+    "brand": "HP",
+    "keyFeatures": {
+      "model": "HP EX900",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty",
+      "capacity": "120GB"
+    },
+    "review": []
+  },
+  {
+    "id": "19",
+    "image": "https://i.ibb.co/z4wsV9G/mw3222-x-500x500.webp",
+    "productName": "Uniview MW3222-X 22 LED FHD Monitor With Built-In Speakers",
+    "category": "Monitor",
+    "price": "8000",
+    "status": "In Stock",
+    "rating": "4.5",
+    "description": "The Uniview MW3222-X 22 LED FHD Monitor is an excellent choice for anybody searching for a dependable and cost-effective monitor capable of handling both everyday work and entertainment. This monitor has a 21.5-inch LED-backlit display with a resolution of 1920x1080 and a contrast ratio of 3000:1, producing clear and brilliant pictures with rich colors and broad viewing angles. The display also offers a quick 7ms reaction time and a refresh rate of 60Hz, assuring smooth and lag-free performance while gaming, streaming video, and multitasking. The monitor has a VGA and an HDMI connector, so it may be connected to a variety of devices such as laptops, desktops, consoles, and media players. The Uniview MW3222-X 22 LED FHD Monitor With Built-In Speakers offers a clean and attractive design with a narrow bezel and a solid base that enables VESA installation. The monitor also consumes less than 22W when turned on and less than 0.5W when turned off, making it energy-efficient and environmentally friendly. The kit includes a power cord, an adapter, a pedestal, and a fast guide. The net weight of the monitor is 2.2kg (4.85lb), while the gross weight is 3.3kg (7.28lb).",
+    "averageRating": "4.3",
+    "brand": "MW",
+    "keyFeatures": {
+      "model": " MW3222-X",
+      "speed": "2400MHz (PC4-19200)",
+      "port": "1333MHZ",
+      "type": "Moduler",
+      "resolution": "PAC Input 120VAC 2A 47-60Hz",
+      "warranty": "2 Years Limited Warranty"
+    },
+    "review": []
+  },
+  {
+    "id": "20",
+    "image": "https://i.ibb.co/y05L3JT/20mk400h-500x500.jpg",
+    "productName": "LG 20MK400H 20 HD Monitor",
+    "category": "Monitor",
+    "price": "9400",
+    "status": "In Stock",
+    "rating": "3.9",
+    "description": "LG 20MK400H 20 Monitor Protect Eyes with Reader Mode.Reducing blue light to help lessen eye fatigue, Reader Mode provides optimal condition for reading. Reducing the flicker level to almost zero, Flicker Safe helps you protect your eyes from exhausting flickers.Dynamic Action Sync mode allows you to instantly react to your opponents and attack them without any display lag. It synchronizes your senses with real-time scenes in fast-paced games by minimizing input lag.Black Stabilizer gives you full visual clarity, even in games where you spend a lot of time in the dark. It synchronizes and brightens the darkest areas, so that you can find enemies hiding in the shadows and shoot first.Mount the monitor to suit your work or entertainment set up.",
+    "averageRating": "3.7",
+    "brand": "LG",
+    "keyFeatures": {
+      "model": ": LG 20MK400H",
+      "speed": "1600MHz (PC3-12800)",
+      "port": "1066MHZ",
+      "type": "IN",
+      "resolution": "PAC Input 100VAC 1A 47-63Hz",
+      "warranty": "1 Year Limited Warranty"
+    },
+    "review": []
+  },
+  {
+    "id": "21",
+    "image": "https://i.ibb.co/wYxqtmC/d1918h-01-500x500.jpg",
+    "productName": "Dell D1918H 18.5 Inch LED Monitor (VGA, HDMI)",
+    "category": "Monitor",
+    "price": "10200",
+    "status": "In Stock",
+    "rating": "4.2",
+    "description": " Dell D1918H Screen Size 18.5 inch (47 cm) HD Ready (1366 X 768) TN Panel.It has Feature of Connectivity 1 VGA Port, 1 HDMI Port,Aspect Ratio 16:9, Brightness (Typical): 200 cd/mÂ².Refresh Rate: 60 Hz, Response Time 5 ms. Viewing Angle 90 degree horizontal 65 degree vertical.Flicker Free Technology.",
+    "averageRating": "4.0",
+    "brand": "Dell",
+    "keyFeatures": {
+      "model": "Dell D1918H",
+      "speed": "3000MHz (PC4-24000)",
+      "port": "2133MHZ",
+      "type": "Moduler",
+      "resolution": "PAC Input 220VAC 3A 47-64Hz",
+      "warranty": "3 Years Limited Warranty"
+    },
+    "review": []
+  },
+  {
+    "id": "22",
+    "image": "https://i.ibb.co/0QxJggh/193v-500x500.png",
+    "productName": "PHILIPS 18.5 193V5LSB2 LED MONITOR",
+    "category": "Monitor",
+    "price": "8500",
+    "status": "In Stock",
+    "rating": "4.9",
+    "description": "Smart Contrast for rich black details Smart Contrast is a Philips technology that analyzes the contents you are displaying, automatically adjusting colors and controlling back-light intensity to dynamically enhance contrast for the best digital images and videos or when playing games where dark hues are displayed. When Economy mode is selected, contrast is adjusted and back-lighting fine-tuned for just-right display of everyday office applications and lower power consumption",
+    "averageRating": "4.8",
+    "brand": "PHILIPS",
+    "keyFeatures": {
+      "model": "193V",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": []
+  }
+]

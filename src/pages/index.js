@@ -8,7 +8,7 @@ import Products from "@/components/ui/Products";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({ products }) {
   return (
     <div>
       <Head>
@@ -17,7 +17,7 @@ export default function Home() {
       <div>
         <Banner />
         <Category />
-        <Products />
+        <Products products={products} />
       </div>
     </div>
   );
@@ -27,4 +27,17 @@ Home.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-//
+//Static site generation
+export const getStaticProps = async () => {
+  const res = await fetch("http://localhost:5000/products");
+  const data = await res.json();
+  const shuffledArray = data?.slice().sort(() => Math.random() - 0.5);
+
+  // Take the first 6 elements from the shuffled array
+  const selectedData = shuffledArray.slice(0, 6);
+  return {
+    props: {
+      products: selectedData,
+    },
+  };
+};

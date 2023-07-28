@@ -30,7 +30,7 @@ const PcBuilder = () => {
     // }, 0);
     // setTotalPrice(totalPrices);
     // console.log(totalPrices);
-  }, [totalPrice]);
+  }, []);
   const categories = [
     {
       id: "1",
@@ -156,6 +156,16 @@ const PcBuilder = () => {
             )}
           </div>
         ))}
+
+        <div className=" mt-5  flex justify-center">
+          <button
+            disabled={PcBuilder?.length < 6}
+            onClick={() => router.push("/checkOut")}
+            className="px-16 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
+          >
+            CheckOut Now
+          </button>
+        </div>
       </div>
     </div>
   );

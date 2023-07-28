@@ -62,7 +62,7 @@ const ProductCard = ({ product }) => {
                 <p class="font-bold text-xl">{product?.price} BDT</p>
                 <button
                   onClick={() =>
-                    router.push(`/featured/product/${product?.id}`)
+                    router.push(`/featured/product/${product?._id}`)
                   }
                   class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
                 >

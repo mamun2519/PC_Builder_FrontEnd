@@ -66,7 +66,7 @@ const Category = () => {
           <div
             onClick={() => router.push(`/featured/category/${category.name}`)}
             className="  w-full border p-3 h-28 text-center rounded-lg cursor-pointer"
-            key={category.id}
+            key={category._id}
           >
             <h3 className="text-xl mt-2"> {category.name}</h3>
             <div className=" text-4xl flex justify-center mt-2  ">

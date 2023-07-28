@@ -29,9 +29,9 @@ Home.getLayout = function getLayout(page) {
 
 //Static site generation
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:5000/api/v1/product/all");
   const data = await res.json();
-  const shuffledArray = data?.slice().sort(() => Math.random() - 0.5);
+  const shuffledArray = data.data?.slice().sort(() => Math.random() - 0.5);
 
   // Take the first 6 elements from the shuffled array
   const selectedData = shuffledArray.slice(0, 6);

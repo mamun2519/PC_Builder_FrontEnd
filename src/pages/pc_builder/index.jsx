@@ -1,4 +1,6 @@
 import RootLayout from "@/components/layout/RootLayout";
+import UserPcBuild from "@/components/ui/UserPcBuild";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { AiOutlinePoweroff } from "react-icons/ai";
@@ -12,7 +14,23 @@ import { FiMonitor } from "react-icons/fi";
 import { MdSdStorage } from "react-icons/md";
 
 const PcBuilder = () => {
+  const [userPcBuild, setUserPcBuild] = useState([]);
+  const [totalPrice, setTotalPrice] = useState(0);
   const router = useRouter();
+  useEffect(() => {
+    // Check if we are running on the client side (in the browser)
+    if (typeof window !== "undefined") {
+      // Get data from localStorage, or set an empty array if no data exists
+      const data = JSON.parse(localStorage.getItem("UserPc")) || [];
+      setUserPcBuild(data);
+    }
+
+    // const totalPrices = userPcBuild?.reduce((accumulator, product) => {
+    //   return accumulator + parseInt(product.price);
+    // }, 0);
+    // setTotalPrice(totalPrices);
+    // console.log(totalPrices);
+  }, [totalPrice]);
   const categories = [
     {
       id: "1",
@@ -73,11 +91,13 @@ const PcBuilder = () => {
           </div>
           <div className=" flex gap-5   justify-end">
             <div className=" w-36 border h-14 rounded-lg flex justify-center items-center">
-              <span className="  font-medium text-2xl">200</span>
+              <span className="  font-medium text-2xl">{totalPrice}</span>
               <span className="px-1">BD</span>
             </div>
             <div className=" w-36 border h-14 rounded-lg flex justify-center items-center">
-              <span className="  font-medium text-2xl">8</span>
+              <span className="  font-medium text-2xl">
+                {userPcBuild?.length}
+              </span>
               <span className="px-1">Items</span>
             </div>
           </div>
@@ -124,6 +144,16 @@ const PcBuilder = () => {
                 </div>
               </div>
             </div> */}
+            {userPcBuild?.map(
+              (product) =>
+                product.category == category.name && (
+                  <UserPcBuild
+                    key={product?._id}
+                    product={product}
+                    setUserPcBuild={setUserPcBuild}
+                  />
+                )
+            )}
           </div>
         ))}
       </div>

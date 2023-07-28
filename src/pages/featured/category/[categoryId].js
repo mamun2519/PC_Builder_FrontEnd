@@ -10,7 +10,18 @@ const FeaturedProduct = ({ products }) => {
     <div className=" max-w-7xl mx-auto my-20">
       {router.query.category}
       <div className=" flex gap-10">
-        <div className=" w-52">options</div>
+        <div className="  w-80 card h-80 border p-5">
+          <div>
+            <input
+              type="text"
+              placeholder="Search Product"
+              className="input input-bordered w-full max-w-xs"
+            />
+          </div>
+          <div className="mt-5 px-1">
+            <h3 className=" font-medium text-xl">Filter</h3>
+          </div>
+        </div>
         <div className=" w-full grid grid-cols-3 gap-5">
           {products.map((product) => (
             <ProductCard key={product?._id} product={product} />

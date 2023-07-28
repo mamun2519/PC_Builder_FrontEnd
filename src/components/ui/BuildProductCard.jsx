@@ -1,7 +1,16 @@
 import Image from "next/image";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 
 const BuildProductCard = ({ product }) => {
+  const router = useRouter();
+
+  const addDataLocalStorage = (product) => {
+    const data = JSON.parse(localStorage.getItem("UserPc")) || [];
+    data.push(product);
+    localStorage.setItem("UserPc", JSON.stringify(data));
+    router.push("/pc_builder");
+  };
   return (
     <div>
       <div className="card card-side bg-base-100 shadow-xl border  w-full mt-2 flex ">
@@ -33,7 +42,10 @@ const BuildProductCard = ({ product }) => {
               Price: {product?.price} BDT
             </p>
             <div className="card-actions justify-end">
-              <button className="px-16 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
+              <button
+                onClick={() => addDataLocalStorage(product)}
+                className="px-16 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
+              >
                 Add
               </button>
             </div>

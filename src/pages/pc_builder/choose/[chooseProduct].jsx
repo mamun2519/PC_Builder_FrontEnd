@@ -4,9 +4,6 @@ import { useRouter } from "next/router";
 import React from "react";
 
 const ChooseProduct = ({ products }) => {
-  console.log(products);
-  const router = useRouter();
-  console.log();
   return (
     <div className=" my-20 max-w-7xl mx-auto ">
       {" "}

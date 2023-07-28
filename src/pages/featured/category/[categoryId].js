@@ -8,7 +8,6 @@ const FeaturedProduct = ({ products }) => {
   console.log(router.query.categoryId);
   return (
     <div className=" max-w-7xl mx-auto my-20">
-      {router.query.category}
       <div className=" flex gap-10">
         <div className="  w-80 card h-80 border p-5">
           <div>
@@ -20,6 +19,12 @@ const FeaturedProduct = ({ products }) => {
           </div>
           <div className="mt-5 px-1">
             <h3 className=" font-medium text-xl">Filter</h3>
+            <div className=" w-full h-2 bg-slate-200"></div>
+            <p>Filter Option emplement soon</p>
+
+            <h3 className=" font-medium text-xl mt-10">Brand</h3>
+            <div className=" w-full h-2 bg-slate-200"></div>
+            <p>Brand Option emplement soon</p>
           </div>
         </div>
         <div className=" w-full grid grid-cols-3 gap-5">

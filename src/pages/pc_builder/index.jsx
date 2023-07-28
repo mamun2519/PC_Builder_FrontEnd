@@ -1,6 +1,6 @@
 import RootLayout from "@/components/layout/RootLayout";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlinePoweroff } from "react-icons/ai";
 import {
   BsFillCpuFill,
@@ -61,6 +61,7 @@ const PcBuilder = () => {
       color: "#F50057",
     },
   ];
+
   return (
     <div className="my-20 card border   max-w-5xl mx-auto shadow-lg bg-base-100 ">
       <div className=" p-5">

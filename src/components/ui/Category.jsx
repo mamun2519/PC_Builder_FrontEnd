@@ -12,13 +12,14 @@ const Category = () => {
   const categories = [
     {
       id: "1",
-      name: "CPU & Processor",
+      name: "Processor",
       icons: <BsFillCpuFill />,
       color: "#F50057",
     },
     {
       id: "2",
       name: "Motherboard",
+
       icons: <BsFillMotherboardFill />,
       color: "#6A1B9A",
     },
@@ -31,18 +32,21 @@ const Category = () => {
     {
       id: "4",
       name: "Power Supply Unit",
+
       icons: <AiOutlinePoweroff />,
       color: "283593",
     },
     {
       id: "5",
-      name: "Storage Device",
+      name: "Storage",
+
       icons: <MdSdStorage />,
       color: "#4527A0",
     },
     {
       id: "6",
       name: "Monitor",
+
       icons: <FiMonitor />,
       color: "#F50057",
     },
@@ -64,7 +68,7 @@ const Category = () => {
       <div className=" mt-10 grid grid-cols-4 gap-5    ">
         {categories?.map((category) => (
           <div
-            onClick={() => router.push(`/featured/category/${category.name}`)}
+            onClick={() => router.push(`/featured/category/${category?.name}`)}
             className="  w-full border p-3 h-28 text-center rounded-lg cursor-pointer"
             key={category._id}
           >

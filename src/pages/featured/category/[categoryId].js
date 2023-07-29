@@ -44,7 +44,9 @@ FeaturedProduct.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/api/v1/product/all");
+  const res = await fetch(
+    "https://pc-builer-mamun2232.vercel.app/api/v1/product/all"
+  );
   const data = await res.json();
   const paths = data?.data?.map((product) => ({
     params: {
@@ -59,7 +61,7 @@ export const getStaticProps = async (context) => {
   const { params } = context;
 
   const res = await fetch(
-    `http://localhost:5000/api/v1/product/all?category=${params.categoryId}`
+    `https://pc-builer-mamun2232.vercel.app/api/v1/product/all?category=${params.categoryId}`
   );
   const data = await res.json();
   return {

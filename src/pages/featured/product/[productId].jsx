@@ -46,43 +46,6 @@ const ProductDetails = ({ product }) => {
                     />
                   </div>
                   <div class="prod-info grid gap-10">
-                    {/* <div>
-            <ul class="flex flex-row justify-center items-center">
-              <li class="mr-4 last:mr-0">
-                <span class="block p-1 border-2 border-gray-500 rounded-full transition ease-in duration-300">
-                  <a
-                    href="#blue"
-                    class="block w-6 h-6 bg-blue-900 rounded-full"
-                  ></a>
-                </span>
-              </li>
-              <li class="mr-4 last:mr-0">
-                <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
-                  <a
-                    href="#yellow"
-                    class="block w-6 h-6 bg-yellow-500 rounded-full"
-                  ></a>
-                </span>
-              </li>
-              <li class="mr-4 last:mr-0">
-                <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
-                  <a
-                    href="#red"
-                    class="block w-6 h-6 bg-red-500 rounded-full"
-                  ></a>
-                </span>
-              </li>
-              <li class="mr-4 last:mr-0">
-                <span class="block p-1 border-2 border-white hover:border-gray-500 rounded-full transition ease-in duration-300">
-                  <a
-                    href="#green"
-                    class="block w-6 h-6 bg-green-500 rounded-full"
-                  ></a>
-                </span>
-              </li>
-            </ul>
-          </div> */}
-
                     <div class="flex flex-col md:flex-row justify-between items-center text-gray-900 mt">
                       <p class="font-bold text-xl">{product?.price} BDT</p>
                     </div>
@@ -182,7 +145,7 @@ ProductDetails.getLayout = function getLayout(page) {
 export const getServerSideProps = async (context) => {
   const { params } = context;
   const res = await fetch(
-    `http://localhost:5000/api/v1/product/${params.productId}`
+    `https://pc-builer-mamun2232.vercel.app/api/v1/product/${params.productId}`
   );
   const data = await res.json();
   return {

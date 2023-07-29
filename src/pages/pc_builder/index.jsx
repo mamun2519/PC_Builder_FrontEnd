@@ -25,11 +25,6 @@ const PcBuilder = () => {
       const data = JSON.parse(localStorage.getItem("UserPc")) || [];
       setUserPcBuild(data);
     }
-
-    // const totalPrices = userPcBuild?.reduce((accumulator, product) => {
-    //   return accumulator + parseInt(product.price);
-    // }, totalPrice);
-    // setTotalPrice(totalPrices);
   }, [render]);
   const categories = [
     {

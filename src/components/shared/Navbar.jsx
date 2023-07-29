@@ -1,9 +1,7 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react";
 
 const Navbar = () => {
-  const router = useRouter();
   const categories = [
     {
       id: "1",
@@ -87,7 +85,7 @@ const Navbar = () => {
                 ))}
               </li>
               <li>
-                <a>Login</a>
+                <Link href="/auth/login">Login</Link>
               </li>
             </ul>
           </div>
@@ -116,7 +114,7 @@ const Navbar = () => {
               </details>
             </li>
             <li>
-              <a>Login</a>
+              <Link href="/auth/login">Login</Link>
             </li>
           </ul>
         </div>

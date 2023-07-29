@@ -6,9 +6,7 @@ const UserPcBuild = ({ product, render, setRender }) => {
   const removeUserProductInLocalStorage = (id) => {
     const data = JSON.parse(localStorage.getItem("UserPc"));
     const finalData = data.filter((pro) => pro._id !== id);
-    console.log(finalData);
     localStorage.setItem("UserPc", JSON.stringify(finalData));
-    //     setUserPcBuild(localStorage.setItem("UserPc", JSON.stringify(finalData)));
     setRender(!render);
     Swal.fire({
       position: "center",

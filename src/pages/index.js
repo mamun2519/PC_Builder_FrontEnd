@@ -29,7 +29,9 @@ Home.getLayout = function getLayout(page) {
 
 //Static site generation
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/api/v1/product/all");
+  const res = await fetch(
+    "https://pc-builer-mamun2232.vercel.app/api/v1/product/all"
+  );
   const data = await res.json();
   const shuffledArray = data.data?.slice().sort(() => Math.random() - 0.5);
 

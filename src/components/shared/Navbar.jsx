@@ -1,7 +1,10 @@
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
+  const { data: session } = useSession();
+
   const categories = [
     {
       id: "1",
@@ -84,9 +87,13 @@ const Navbar = () => {
                   </ul>
                 ))}
               </li>
-              <li>
-                <Link href="/auth/login">Login</Link>
-              </li>
+              {session?.user ? (
+                <button onClick={() => signOut()}>LogOut</button>
+              ) : (
+                <li>
+                  <Link href="/auth/login">Login</Link>
+                </li>
+              )}
             </ul>
           </div>
           <Link href="/" className="btn btn-ghost normal-case text-xl">
@@ -113,9 +120,13 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
-            <li>
-              <Link href="/auth/login">Login</Link>
-            </li>
+            {session?.user ? (
+              <button onClick={() => signOut()}>LogOut</button>
+            ) : (
+              <li>
+                <Link href="/auth/login">Login</Link>
+              </li>
+            )}
           </ul>
         </div>
         <div className="navbar-end">

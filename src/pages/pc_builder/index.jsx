@@ -28,9 +28,8 @@ const PcBuilder = () => {
 
     // const totalPrices = userPcBuild?.reduce((accumulator, product) => {
     //   return accumulator + parseInt(product.price);
-    // }, 0);
+    // }, totalPrice);
     // setTotalPrice(totalPrices);
-    // console.log(totalPrices);
   }, [render]);
   const categories = [
     {
@@ -81,6 +80,7 @@ const PcBuilder = () => {
     },
   ];
 
+  console.log(userPcBuild.length);
   return (
     <div className="my-20 card border   max-w-5xl mx-auto shadow-lg bg-base-100 ">
       <div className=" p-5">
@@ -129,22 +129,7 @@ const PcBuilder = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="grid grid-cols-3  px-16  h-16 rounded-lg   bg-blue-300  mt-3">
-              <div className=" flex gap-10">
-                <div className=" text-5xl">
-                  <BsFillCpuFill></BsFillCpuFill>
-                </div>
-                <div className="  flex items-center">
-                  <div className="w-full">
-                    <span>CPU</span>
-                    <div className=" h-4 bg-base-200 mt-1 w-96"></div>
-                  </div>
-                </div>
-                <div className=" flex items-center justify-end w-full">
-                  <button className="px-12 py-2 rounded border ">Choose</button>
-                </div>
-              </div>
-            </div> */}
+
             {userPcBuild?.map(
               (product) =>
                 product.category == category.name && (
@@ -161,11 +146,11 @@ const PcBuilder = () => {
 
         <div className=" mt-5  flex justify-center">
           <button
-            disabled={PcBuilder?.length < 6}
-            onClick={() => router.push("/checkOut")}
+            disabled={userPcBuild?.length <= 5}
+            onClick={() => router.push("/payment/review")}
             className="px-16 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
           >
-            CheckOut Now
+            Build Now
           </button>
         </div>
       </div>

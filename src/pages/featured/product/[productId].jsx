@@ -89,7 +89,7 @@ const ProductDetails = ({ product }) => {
                   <div className=" flex  justify-end mt-12">
                     <button
                       onClick={() => router.push(`/`)}
-                      class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
+                      class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full  bg-cyan-800 text-white font-medium"
                     >
                       Back To Home
                     </button>

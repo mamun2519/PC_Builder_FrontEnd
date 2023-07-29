@@ -18,7 +18,7 @@ const UserPcBuild = ({ product, render, setRender }) => {
   };
   return (
     <div className="card card-side bg-base-100 shadow border  w-full mt-2 flex ">
-      <figure className=" rounded-lg">
+      <figure className=" rounded-lg px-2 ">
         <Image src={product?.image} width={80} height={50} alt="pic" />
       </figure>
       <div className="card-body">

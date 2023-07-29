@@ -65,18 +65,20 @@ const Category = () => {
           Get Your Desired Product from Featured Category!
         </p>
       </div>
-      <div className=" mt-10 grid grid-cols-4 gap-5    ">
+      <div className=" mt-5 grid lg:grid-cols-5 gap-5 grid-cols-2    ">
         {categories?.map((category) => (
           <div
             onClick={() => router.push(`/featured/category/${category?.name}`)}
-            className="  w-full border p-3 h-28 text-center rounded-lg cursor-pointer"
+            className="  w-full border p-3 h-32 bg-cyan-800 text-white shadow text-center rounded-lg cursor-pointer flex justify-center items-center"
             key={category._id}
           >
-            <h3 className="text-xl mt-2"> {category.name}</h3>
-            <div className=" text-4xl flex justify-center mt-2  ">
-              <span className={"text-[`${category.color}]"}>
-                {category.icons}
-              </span>
+            <div>
+              <h3 className="text-xl mt-2"> {category.name}</h3>
+              <div className=" text-4xl flex justify-center mt-2  ">
+                <span className={"text-[`${category.color}]"}>
+                  {category.icons}
+                </span>
+              </div>
             </div>
           </div>
         ))}

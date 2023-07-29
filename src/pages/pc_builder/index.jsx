@@ -105,7 +105,9 @@ const PcBuilder = () => {
           <div key={category.name}>
             <div className=" h-20  border-b mt-5 ">
               <div className=" lg:flex gap-10">
-                <div className=" text-5xl">{category.icons}</div>
+                <div className="  text-white bg-cyan-800 rounded p-1">
+                  <span className="text-5xl">{category.icons}</span>
+                </div>
                 <div className="  lg:flex items-center">
                   <div className="w-full">
                     <span>{category.name}</span>
@@ -117,7 +119,7 @@ const PcBuilder = () => {
                     onClick={() =>
                       router.push(`/pc_builder/choose/${category.name}`)
                     }
-                    className="px-12 py-2 rounded border "
+                    className="px-12 font-medium py-2 rounded border  bg-cyan-800 text-white"
                   >
                     Choose
                   </button>
@@ -143,7 +145,7 @@ const PcBuilder = () => {
           <button
             disabled={userPcBuild?.length <= 5}
             onClick={() => router.push("/payment/review")}
-            className="px-16 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
+            className="px-16 py-2 transition ease-in duration-200 uppercase rounded-full  bg-cyan-800 text-white font-medium"
           >
             Build Now
           </button>

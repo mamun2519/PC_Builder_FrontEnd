@@ -1,9 +1,14 @@
+import { signIn } from "next-auth/react";
 import Head from "next/head";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
 
 const SingUp = () => {
   const router = useRouter();
+  const singInWithWithHub = () => {
+    signIn("github", { callbackUrl: "http://localhost:3000" });
+  };
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
@@ -21,10 +26,13 @@ const SingUp = () => {
                 </div>
                 <div className="btn-wrapper text-center">
                   <button
+                    onClick={() => singInWithWithHub()}
                     className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                     type="button"
                   >
-                    <img
+                    <Image
+                      width={30}
+                      height={30}
                       alt="..."
                       className="w-5 mr-1"
                       src="https://demos.creative-tim.com/notus-js/assets/img/github.svg"
@@ -35,7 +43,9 @@ const SingUp = () => {
                     className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                     type="button"
                   >
-                    <img
+                    <Image
+                      width={30}
+                      height={30}
                       alt="..."
                       className="w-5 mr-1"
                       src="https://demos.creative-tim.com/notus-js/assets/img/google.svg"

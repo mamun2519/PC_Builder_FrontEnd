@@ -1,9 +1,12 @@
 import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import React from "react";
-
+import Logo from "../../../public/images/logo.png";
+import Image from "next/image";
+import avatar from "../../../public/images/avatar.png";
 const Navbar = () => {
   const { data: session } = useSession();
+  console.log(session);
 
   const categories = [
     {
@@ -48,7 +51,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="bg-red-200">
+    <div className="bg-base-200">
       <div className="navbar   max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -72,9 +75,9 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
+              {/* <li>
                 <a>Product Features</a>
-              </li>
+              </li> */}
               <li>
                 <a>Categories</a>
                 {categories.map((category) => (
@@ -87,27 +90,32 @@ const Navbar = () => {
                   </ul>
                 ))}
               </li>
-              {session?.user ? (
-                <button onClick={() => signOut()}>LogOut</button>
-              ) : (
-                <li>
-                  <Link href="/auth/login">Login</Link>
-                </li>
-              )}
             </ul>
           </div>
-          <Link href="/" className="btn btn-ghost normal-case text-xl">
-            Smart Builder
+          <Link
+            href="/"
+            className="btn btn-ghost normal- text-xl text-cyan-800 uppercase"
+          >
+            <Image
+              className="  rounded-lg"
+              width={50}
+              height={50}
+              src={Logo}
+              alt="logo"
+            />
+            Smart-Tech
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
+            {/* <li>
               <a>Product Features</a>
-            </li>
+            </li> */}
             <li tabIndex={0}>
               <details>
-                <summary>Categories</summary>
+                <summary className=" text-lg  font-medium text-cyan-800">
+                  Categories
+                </summary>
 
                 <ul className="p-2 w-96  grid grid-cols-2">
                   {categories.map((category) => (
@@ -120,19 +128,57 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
-            {session?.user ? (
-              <button onClick={() => signOut()}>LogOut</button>
-            ) : (
-              <li>
-                <Link href="/auth/login">Login</Link>
-              </li>
-            )}
           </ul>
         </div>
         <div className="navbar-end">
-          <Link href="/pc_builder" className="btn">
+          <Link
+            href="/pc_builder"
+            className=" px-8 rounded bg-cyan-800 py-2 text-white font-medium"
+          >
             Pc Builder
           </Link>
+          <div className="dropdown dropdown-end pl-3">
+            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+              <div className="w-10 rounded-full">
+                {session?.user ? (
+                  <Image
+                    src={session?.user?.image}
+                    alt="profile"
+                    width={50}
+                    height={50}
+                  />
+                ) : (
+                  <Image src={avatar} alt="profile" width={50} height={50} />
+                )}
+              </div>
+            </label>
+            <ul
+              tabIndex={0}
+              className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52"
+            >
+              <li>
+                <a className="justify-between">
+                  {session?.user?.name ?? "no name"}
+                  <span className="badge">New</span>
+                </a>
+              </li>
+              <li>
+                <a>Settings</a>
+              </li>
+              {session?.user ? (
+                <li
+                  className="text-cyan-800  font-medium px-3"
+                  onClick={() => signOut()}
+                >
+                  LogOut
+                </li>
+              ) : (
+                <li className=" text-lg text-cyan-800  font-medium">
+                  <Link href="/auth/login">Login</Link>
+                </li>
+              )}
+            </ul>
+          </div>
         </div>
       </div>
     </div>

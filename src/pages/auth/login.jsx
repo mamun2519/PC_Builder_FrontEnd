@@ -16,14 +16,6 @@ const Login = () => {
     <div className="max-w-7xl mx-auto">
       <Head>
         <title>SingIn</title>
-        {/* <link
-          rel="stylesheet"
-          href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
-        />
-        <link
-          rel="stylesheet"
-          href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-        ></link> */}
       </Head>
       <div className="">
         <section className="bg-blueGray-50">

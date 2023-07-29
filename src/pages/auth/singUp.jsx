@@ -118,7 +118,7 @@ const SingUp = () => {
                   </div>
                   <div className="text-center mt-6">
                     <button
-                      className="bg-blueGray-800 text-white bg-red-500 active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                      className="bg-blueGray-800 text-white bg-cyan-800 active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
                     >
                       {" "}
@@ -131,7 +131,7 @@ const SingUp = () => {
                       Already account?{" "}
                       <span
                         onClick={() => router.push("/auth/login")}
-                        className="px-1 cursor-pointer text-red-500  font-medium"
+                        className="px-1 cursor-pointer text-cyan-800  font-medium"
                       >
                         Please SingIn
                       </span>

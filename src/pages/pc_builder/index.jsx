@@ -16,6 +16,7 @@ import { MdSdStorage } from "react-icons/md";
 const PcBuilder = () => {
   const [userPcBuild, setUserPcBuild] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [render, setRender] = useState(false);
   const router = useRouter();
   useEffect(() => {
     // Check if we are running on the client side (in the browser)
@@ -30,7 +31,7 @@ const PcBuilder = () => {
     // }, 0);
     // setTotalPrice(totalPrices);
     // console.log(totalPrices);
-  }, []);
+  }, [render]);
   const categories = [
     {
       id: "1",
@@ -150,7 +151,8 @@ const PcBuilder = () => {
                   <UserPcBuild
                     key={product?._id}
                     product={product}
-                    setUserPcBuild={setUserPcBuild}
+                    render={render}
+                    setRender={setRender}
                   />
                 )
             )}

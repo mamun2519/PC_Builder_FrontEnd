@@ -1,14 +1,22 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
-
-const UserPcBuild = ({ product, setUserPcBuild }) => {
+import Swal from "sweetalert2";
+const UserPcBuild = ({ product, render, setRender }) => {
   const removeUserProductInLocalStorage = (id) => {
     const data = JSON.parse(localStorage.getItem("UserPc"));
     const finalData = data.filter((pro) => pro._id !== id);
     console.log(finalData);
     localStorage.setItem("UserPc", JSON.stringify(finalData));
     //     setUserPcBuild(localStorage.setItem("UserPc", JSON.stringify(finalData)));
+    setRender(!render);
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: "Item Delete Successfully",
+      showConfirmButton: false,
+      timer: 1500,
+    });
   };
   return (
     <div className="card card-side bg-base-100 shadow border  w-full mt-2 flex ">

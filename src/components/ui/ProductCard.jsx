@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 
@@ -105,14 +106,12 @@ const ProductCard = ({ product }) => {
                     </div>
                   </p>
                 </div>
-                <button
-                  onClick={() =>
-                    router.push(`/featured/product/${product?._id}`)
-                  }
+                <Link
+                  href={`/featured/product/${product?._id}`}
                   className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full bg-cyan-800 text-white font-medium"
                 >
                   Details
-                </button>
+                </Link>
               </div>
             </div>
           </div>

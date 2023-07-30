@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
@@ -77,12 +78,12 @@ const ProductDetails = ({ product }) => {
                     )}
                   </div>
                   <div className=" flex  justify-end mt-12">
-                    <button
-                      onClick={() => router.push(`/`)}
+                    <Link
+                      href={"/"}
                       class="px-6 py-2 transition ease-in duration-200 uppercase rounded-full  bg-cyan-800 text-white font-medium"
                     >
                       Back To Home
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import RootLayout from "@/components/layout/RootLayout";
 import UserPcBuild from "@/components/ui/UserPcBuild";
 import Head from "next/head";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { AiOutlinePoweroff } from "react-icons/ai";
@@ -118,14 +119,12 @@ const PcBuilder = () => {
                     </div>
                   </div>
                   <div className=" flex items-center justify-end w-full mt-5 lg:mt-0">
-                    <button
-                      onClick={() =>
-                        router.push(`/pc_builder/choose/${category.name}`)
-                      }
+                    <Link
+                      href={`/pc_builder/choose/${category.name}`}
                       className="px-12 font-medium py-2 rounded border  bg-cyan-800 text-white"
                     >
                       Choose
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

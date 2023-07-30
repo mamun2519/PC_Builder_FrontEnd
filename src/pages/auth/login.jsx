@@ -7,10 +7,10 @@ import React from "react";
 const Login = () => {
   const router = useRouter();
   const singInWithWithHub = () => {
-    signIn("github", { callbackUrl: "http://localhost:3000" });
+    signIn("github", { callbackUrl: "https://pc-build-frontend.vercel.app" });
   };
   const singInWithGoogle = () => {
-    signIn("google", { callbackUrl: "http://localhost:3000" });
+    signIn("google", { callbackUrl: "https://pc-build-frontend.vercel.app" });
   };
   return (
     <div className="max-w-7xl mx-auto">

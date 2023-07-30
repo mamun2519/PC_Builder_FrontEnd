@@ -1,6 +1,7 @@
 import React from "react";
 import BuildProductCard from "./BuildProductCard";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const BuildProduct = ({ products }) => {
   const router = useRouter();
@@ -24,12 +25,12 @@ const BuildProduct = ({ products }) => {
               {router?.query?.chooseProduct}
             </span>
           </h3>
-          <button
-            onClick={() => router.push("/pc_builder")}
+          <Link
+            href={"/pc_builder"}
             className="px-6 py-1 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none"
           >
             Back
-          </button>
+          </Link>
         </div>
         {products?.map((product) => (
           <BuildProductCard key={product?._id} product={product} />

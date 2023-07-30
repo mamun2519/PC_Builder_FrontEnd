@@ -15,6 +15,6 @@ export const authOptions = {
     }),
   ],
 
-  pages: { signIn: "/auth/login" },
+  pages: { signIn: "https://pc-build-frontend.vercel.app/auth/login" },
 };
 export default NextAuth(authOptions);

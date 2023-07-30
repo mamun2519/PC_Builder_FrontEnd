@@ -12,6 +12,7 @@ import { MdSdStorage } from "react-icons/md";
 import { FiMonitor } from "react-icons/fi";
 import { CgDetailsMore } from "react-icons/cg";
 import { useRouter } from "next/router";
+import Link from "next/link";
 const Category = () => {
   const router = useRouter();
   const categories = [
@@ -84,8 +85,8 @@ const Category = () => {
       </div>
       <div className=" mt-5 grid lg:grid-cols-5 gap-5 grid-cols-2    ">
         {categories?.map((category) => (
-          <div
-            onClick={() => router.push(`/featured/category/${category?.name}`)}
+          <Link
+            href={`/featured/category/${category?.name}`}
             className="  w-full border p-3 h-32 bg-cyan-800 text-white shadow text-center rounded-lg cursor-pointer flex justify-center items-center"
             key={category._id}
           >
@@ -97,7 +98,7 @@ const Category = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

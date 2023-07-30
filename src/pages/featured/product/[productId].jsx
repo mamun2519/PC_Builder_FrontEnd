@@ -1,28 +1,18 @@
 import RootLayout from "@/components/layout/RootLayout";
+import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
 const ProductDetails = ({ product }) => {
   const [activeTab, setActiveTab] = useState(1);
-  const tab = [
-    {
-      id: 1,
-      name: "Description",
-    },
-    {
-      id: 2,
-      name: "Reviews",
-    },
-    {
-      id: 3,
-      name: "Add Review",
-    },
-  ];
 
   const router = useRouter();
   return (
-    <div className=" max-w-7xl mx-auto my-20">
+    <div className=" max-w-7xl mx-auto my-20 px-4">
+      <Head>
+        <title>Smart Tech-ProductDetails</title>
+      </Head>
       <div className="">
         <div class="w-full">
           <div class="container mx-auto ">
@@ -129,8 +119,16 @@ const ProductDetails = ({ product }) => {
             <p className=" text-lg mt-2">{product?.description}</p>
           </div>
         )}
-        {activeTab == 2 && <div className="mt-4">reviews </div>}
-        {activeTab == 3 && <div className="mt-4">add reviews </div>}
+        {activeTab == 2 && (
+          <div className="mt-4 h-24  flex justify-center items-center">
+            <p className=" text-red-500">No Reviews Here</p>
+          </div>
+        )}
+        {activeTab == 3 && (
+          <div className="mt-4 h-24  flex justify-center items-center">
+            <p className=" text-red-500">Implement Soon</p>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -142,7 +140,21 @@ ProductDetails.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-export const getServerSideProps = async (context) => {
+export const getStaticPaths = async () => {
+  const res = await fetch(
+    "https://pc-builer-mamun2232.vercel.app/api/v1/product/all"
+  );
+  const data = await res.json();
+  const paths = data?.data?.map((product) => ({
+    params: {
+      productId: product._id,
+    },
+  }));
+
+  return { paths, fallback: true };
+};
+
+export const getStaticProps = async (context) => {
   const { params } = context;
   const res = await fetch(
     `https://pc-builer-mamun2232.vercel.app/api/v1/product/${params.productId}`

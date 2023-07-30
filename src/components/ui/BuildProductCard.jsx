@@ -20,16 +20,14 @@ const BuildProductCard = ({ product }) => {
         <div className="card-body ">
           <h2 className="card-title">{product?.productName}</h2>
           <div className="mt-2">
-            <h3 className=" font-medium text-2xl">Key Features</h3>
+            {/* <h3 className=" font-medium text-2xl">Key Features</h3>
             <p className=" text-lg mt-">Model: {product?.keyFeatures?.model}</p>
             <p className=" text-lg mt-1">
               Speed: {product?.keyFeatures?.speed}
             </p>
-            <p className=" text-lg mt-1">Port: {product?.keyFeatures?.port}</p>
-            <p className=" text-lg mt-1">Type: {product?.keyFeatures?.type}</p>
-            <p className=" text-lg mt-1">
-              Resolution: {product?.keyFeatures?.resolution}
-            </p>
+            <p className=" text-lg mt-1">Port: {product?.keyFeatures?.port}</p> */}
+            <p className=" text-lg mt-1">Status: {product?.status}</p>
+            <p className=" text-lg mt-1">Rating: {product?.rating}</p>
             <p className=" text-lg mt-1">
               Warranty: {product?.keyFeatures?.warranty}
             </p>

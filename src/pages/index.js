@@ -12,7 +12,7 @@ export default function Home({ products }) {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>Smart Tech- Home</title>
       </Head>
       <div>
         <Banner />

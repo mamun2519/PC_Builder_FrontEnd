@@ -1,12 +1,15 @@
 import RootLayout from "@/components/layout/RootLayout";
 import BuildProduct from "@/components/ui/BuildProduct";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
 
 const ChooseProduct = ({ products }) => {
   return (
-    <div className=" my-20 max-w-7xl mx-auto ">
-      {" "}
+    <div className=" my-20 max-w-7xl mx-auto  px-2">
+      <Head>
+        <title>Smart Tech -Choose Product</title>
+      </Head>
       <BuildProduct products={products} />
     </div>
   );

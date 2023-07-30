@@ -135,7 +135,7 @@ const Navbar = () => {
             href="/pc_builder"
             className=" px-8 rounded bg-cyan-800 py-2 text-white font-medium"
           >
-            Pc Builder
+            Pc Build
           </Link>
           <div className="dropdown dropdown-end pl-3">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">

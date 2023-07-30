@@ -1,5 +1,10 @@
 import React from "react";
-import { BsFillCpuFill } from "react-icons/bs";
+import {
+  BsFillCpuFill,
+  BsFillMouseFill,
+  BsHeadphones,
+  BsKeyboardFill,
+} from "react-icons/bs";
 import { BsFillMotherboardFill } from "react-icons/bs";
 import { BsFillDiagram2Fill } from "react-icons/bs";
 import { AiOutlinePoweroff } from "react-icons/ai";
@@ -52,9 +57,21 @@ const Category = () => {
     },
     {
       id: "7",
-      name: "Others",
-      icons: <CgDetailsMore />,
+      name: "Keyboard",
       color: "#F50057",
+      icons: <BsKeyboardFill />,
+    },
+    {
+      id: "8",
+      name: "Mouse",
+      color: "#F50057",
+      icons: <BsFillMouseFill />,
+    },
+    {
+      id: "9",
+      name: "Headphone",
+      color: "#F50057",
+      icons: <BsHeadphones />,
     },
   ];
   return (

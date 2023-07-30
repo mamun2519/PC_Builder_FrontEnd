@@ -49,31 +49,43 @@ FeaturedProduct.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
-export const getStaticPaths = async () => {
-  const res = await fetch(
-    "https://pc-builer-mamun2232.vercel.app/api/v1/product/all"
-  );
-  const data = await res.json();
-  const paths = data?.data?.map((product) => ({
-    params: {
-      categoryId: product.category,
-    },
-  }));
+// export const getStaticPaths = async () => {
+//   const res = await fetch(
+//     "https://pc-builer-mamun2232.vercel.app/api/v1/product/all"
+//   );
+//   const data = await res.json();
+//   const paths = data.data.map((product) => ({
+//     params: {
+//       categoryId: product.category,
+//     },
+//   }));
 
-  return { paths, fallback: true };
-};
+//   return { paths, fallback: true };
+// };
 
-export const getStaticProps = async (context) => {
+// export const getStaticProps = async (context) => {
+//   const { params } = context;
+//   const res = await fetch(
+//     `https://pc-builer-mamun2232.vercel.app/api/v1/product/all?category=${params.categoryId}`
+//   );
+//   const data = await res.json();
+//   return {
+//     props: {
+//       products: data.data,
+//     },
+//   };
+// };
+
+export const getServerSideProps = async (context) => {
   const { params } = context;
-
   const res = await fetch(
     `https://pc-builer-mamun2232.vercel.app/api/v1/product/all?category=${params.categoryId}`
   );
   const data = await res.json();
+  console.log(data);
   return {
     props: {
       products: data.data,
     },
-    revalidate: 30,
   };
 };

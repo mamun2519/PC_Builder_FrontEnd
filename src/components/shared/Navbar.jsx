@@ -6,12 +6,11 @@ import Image from "next/image";
 import avatar from "../../../public/images/avatar.png";
 const Navbar = () => {
   const { data: session } = useSession();
-  console.log(session);
 
   const categories = [
     {
       id: "1",
-      name: "CPU & Processor",
+      name: "Processor",
 
       color: "#F50057",
     },
@@ -34,7 +33,7 @@ const Navbar = () => {
     },
     {
       id: "5",
-      name: "Storage Device",
+      name: "Storage",
 
       color: "#4527A0",
     },
@@ -46,7 +45,17 @@ const Navbar = () => {
     },
     {
       id: "7",
-      name: "Others",
+      name: "Keyboard",
+      color: "#F50057",
+    },
+    {
+      id: "8",
+      name: "Mouse",
+      color: "#F50057",
+    },
+    {
+      id: "9",
+      name: "Headphone",
       color: "#F50057",
     },
   ];

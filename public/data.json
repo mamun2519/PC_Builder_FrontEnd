@@ -1,6 +1,5 @@
 [
   {
-    "id": "1",
     "image": "https://i.ibb.co/rtBPkDW/adm.jpg",
     "productName": "AMD Athlon 200GE AM4 Socket Desktop Processor with Radeon Vega 3 Graphics",
     "category": "processor",
@@ -21,7 +20,6 @@
     "review": []
   },
   {
-    "id": "2",
     "image": "https://i.ibb.co/R7qFX47/amd-ryzen-3-4100-01-500x500.jpg",
     "productName": "AMD Ryzen 3 4100 Processor",
     "category": "processor",
@@ -42,7 +40,6 @@
     "review": []
   },
   {
-    "id": "3",
     "image": "https://i.ibb.co/TgRywHk/core-i3-10105-001-500x500.jpg",
     "productName": "Intel Core i3 10105 10th Gen Comet Lake Processor",
     "category": "processor",
@@ -63,7 +60,6 @@
     "review": []
   },
   {
-    "id": "4",
     "image": "https://i.ibb.co/VM5S2kZ/ryzen-3500-500x500.jpg",
     "productName": "AMD RYZEN 5 3500 Processor",
     "category": "processor",
@@ -84,7 +80,6 @@
     "review": []
   },
   {
-    "id": "5",
     "image": "https://i.ibb.co/RNsGdYX/a520m-hvs-01-500x500.webp",
     "productName": "ASRock B450M-HDV R4.0 AMD Motherboard",
     "category": "Motherboard",
@@ -105,7 +100,6 @@
     "review": []
   },
   {
-    "id": "6",
     "image": "https://i.ibb.co/LSXWWfC/b450m-hdv-r4-500x500.jpg",
     "productName": "ASRock B450M-HDV R4.0 AMD Motherboard",
     "category": "Motherboard",
@@ -126,7 +120,6 @@
     "review": []
   },
   {
-    "id": "7",
     "image": "https://i.ibb.co/V9HWwFw/b450m-500x500.jpg",
     "productName": "Gigabyte AMD B450M Gaming Motherboard",
     "category": "Motherboard",
@@ -147,7 +140,6 @@
     "review": []
   },
   {
-    "id": "9",
     "image": "https://i.ibb.co/yW6PdVr/panther-golden-4gb-ddr4-2666mhz-01-500x500.jpg",
     "productName": "Apacer Panther Golden 4GB DDR4 2666MHZ Desktop RAM",
     "category": "RAM",
@@ -169,7 +161,6 @@
     "review": []
   },
   {
-    "id": "10",
     "image": "https://i.ibb.co/mcHYhg1/ripjaws-v-01-500x500.jpg",
     "productName": "G.Skill Ripjaws V 4GB DDR4 2666MHz Red Heatsink Desktop RAM",
     "category": "RAM",
@@ -192,7 +183,6 @@
     "review": []
   },
   {
-    "id": "11",
     "image": "https://i.ibb.co/kyW6rs8/xlr8-01-500x500.jpg",
     "productName": "PNY XLR8 8GB DDR4 3200MHz Desktop Gaming RAM",
     "category": "RAM",
@@ -214,7 +204,6 @@
     "review": []
   },
   {
-    "id": "12",
     "image": "https://i.ibb.co/fSFysq4/vp-350-01-500x500.webp",
     "productName": "Revenger VP 350 Watt Power Supply            ",
     "category": "Power Supply Unit",
@@ -235,7 +224,6 @@
     "review": []
   },
   {
-    "id": "13",
     "image": "https://i.ibb.co/vJzMp67/pt-p200b-01-500x500.webp",
     "productName": "Power Train PT-P200B 200W Power Supply ",
     "category": "Power Supply Unit",
@@ -256,7 +244,6 @@
     "review": []
   },
   {
-    "id": "14",
     "image": "https://i.ibb.co/4ZBhk5c/mwe-450w-v2-500x500.jpg",
     "productName": "Cooler Master MWE 450W V2 Non-Modular 80 Plus Bronze Power Supply ",
     "category": "Power Supply Unit",
@@ -278,7 +265,6 @@
   },
 
   {
-    "id": "15",
     "image": "https://i.ibb.co/2htWjQH/120gb-ssd-500x500.jpg",
     "productName": "Gigabyte 120GB Solid State Drive (SSD)",
     "category": "Storage",
@@ -301,7 +287,6 @@
   },
 
   {
-    "id": "16",
     "image": "https://i.ibb.co/Wt8FGYK/cs900-500x500.jpg",
     "productName": "PNY CS900 120GB 2.5 SATA III Internal SS            ",
     "category": "Storage",
@@ -323,7 +308,6 @@
     "review": []
   },
   {
-    "id": "17",
     "image": "https://i.ibb.co/nmP63B4/s700-500x500.jpg",
     "productName": "HP S700 120GB 2.5 SSD (Solid State Drive)",
     "category": "Storage",
@@ -345,7 +329,6 @@
     "review": []
   },
   {
-    "id": "18",
     "image": "https://example.com/image5.jpg",
     "productName": "HP EX900 M.2 120GB PCIe NVMe Internal SSD",
     "category": "Storage",
@@ -367,7 +350,6 @@
     "review": []
   },
   {
-    "id": "19",
     "image": "https://i.ibb.co/z4wsV9G/mw3222-x-500x500.webp",
     "productName": "Uniview MW3222-X 22 LED FHD Monitor With Built-In Speakers",
     "category": "Monitor",
@@ -388,7 +370,6 @@
     "review": []
   },
   {
-    "id": "20",
     "image": "https://i.ibb.co/y05L3JT/20mk400h-500x500.jpg",
     "productName": "LG 20MK400H 20 HD Monitor",
     "category": "Monitor",
@@ -409,7 +390,6 @@
     "review": []
   },
   {
-    "id": "21",
     "image": "https://i.ibb.co/wYxqtmC/d1918h-01-500x500.jpg",
     "productName": "Dell D1918H 18.5 Inch LED Monitor (VGA, HDMI)",
     "category": "Monitor",
@@ -430,7 +410,6 @@
     "review": []
   },
   {
-    "id": "22",
     "image": "https://i.ibb.co/0QxJggh/193v-500x500.png",
     "productName": "PHILIPS 18.5 193V5LSB2 LED MONITOR",
     "category": "Monitor",
@@ -449,5 +428,370 @@
       "warranty": "5 Years Limited Warranty"
     },
     "review": []
+  },
+  {
+    "image": "https://i.ibb.co/G5t93Q6/kb327-2-500x500.jpg",
+    "productName": "HAVIT HV-KB327 Multimedia Keyboard",
+    "category": "Keyboard",
+    "price": "12000",
+    "status": "In Stock",
+    "rating": "4.8",
+    "description": "The Logitech G Pro Mechanical Gaming Keyboard is designed for esports professionals with Romer-G switches for fast, precise key presses and customizable RGB lighting.",
+    "averageRating": "4.8",
+    "brand": "Logitech",
+    "keyFeatures": {
+      "model": "HAVIT HV-KB327",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "Gamer123",
+        "rating": "5.0",
+        "comment": "The best gaming keyboard I've ever used!",
+        "date": "2023-07-30"
+      },
+      {
+        "username": "ProGamerX",
+        "rating": "4.7",
+        "comment": "The Romer-G switches are so responsive, love it!",
+        "date": "2023-07-29"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/R2DdbZK/a101w-1-500x500.jpg",
+    "productName": "CRedragon A101W Keyboard Keycaps",
+    "category": "Keyboard",
+    "price": "14500",
+    "status": "In Stock",
+    "rating": "4.9",
+    "description": "The Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard features Cherry MX Speed keyswitches, aluminum frame, and 8MB onboard profile storage for a premium gaming experience.",
+    "averageRating": "4.9",
+    "brand": "Redragon",
+    "keyFeatures": {
+      "model": "A101W",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "FPSMaster",
+        "rating": "5.0",
+        "comment": "Amazing build quality and the Cherry MX Speed switches are perfect for FPS gaming!",
+        "date": "2023-07-28"
+      },
+      {
+        "username": "GamingEnthusiast",
+        "rating": "4.8",
+        "comment": "The customizable RGB lighting adds a nice touch to my gaming setup.",
+        "date": "2023-07-27"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/MC5RcSs/mt-k9320-01-500x500.jpg",
+    "productName": "Meetion MT-K9320 Waterproof Backlit Gaming Keyboard    ",
+    "category": "Keyboard",
+    "price": "16000",
+    "status": "In Stock",
+    "rating": "4.7",
+    "description": "The Razer BlackWidow V3 Pro is a wireless mechanical gaming keyboard with Razer Green switches, Razer HyperSpeed wireless technology, and a durable aluminum frame.",
+    "averageRating": "4.7",
+    "brand": "Razer",
+    "keyFeatures": {
+      "model": "A101W",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "WirelessGamer",
+        "rating": "4.5",
+        "comment": "The wireless functionality is convenient and the Razer Green switches feel great!",
+        "date": "2023-07-26"
+      },
+      {
+        "username": "RazerFan",
+        "rating": "4.8",
+        "comment": "The RGB lighting effects are mesmerizing, love the keyboard!",
+        "date": "2023-07-25"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/HVKNJds/hv-ms689-01-500x500.jpg",
+    "productName": "Xtreme M302 USB Wired Optical Mouse    ",
+    "category": "Mouse",
+    "price": "10000",
+    "status": "In Stock",
+    "rating": "4.9",
+    "description": "The Logitech G Pro Wireless Gaming Mouse features a HERO 25K sensor, lightweight design, and customizable buttons for esports-grade performance.",
+    "averageRating": "4.9",
+    "brand": "Logitech",
+    "keyFeatures": {
+      "model": "A101W",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "ProGamerX",
+        "rating": "5.0",
+        "comment": "The best wireless mouse I've ever used, perfect for competitive gaming!",
+        "date": "2023-07-30"
+      },
+      {
+        "username": "GamingEnthusiast",
+        "rating": "4.8",
+        "comment": "The lightweight design helps with precise aiming, highly recommended.",
+        "date": "2023-07-29"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/kDQHdWL/t533-01-500x500.jpg",
+    "productName": "Xtreme M288 USB Wired Optical Mouse",
+    "category": "Mouse",
+    "price": "12000",
+    "status": "In Stock",
+    "rating": "4.7",
+    "description": "The Razer DeathAdder V2 Pro is a wireless gaming mouse with Razer Focus+ Optical Sensor and Razer HyperSpeed wireless technology for low-latency performance.",
+    "averageRating": "4.7",
+    "brand": "Razer",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "WirelessGamer",
+        "rating": "4.5",
+        "comment": "The wireless performance is exceptional, and the sensor is top-notch.",
+        "date": "2023-07-28"
+      },
+      {
+        "username": "RazerFanatic",
+        "rating": "4.8",
+        "comment": "The shape and grip are comfortable for extended gaming sessions.",
+        "date": "2023-07-27"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/8XKzK2W/op-720-01-500x500.jpg",
+    "productName": "SteelSeries Rival 650 Wireless Gaming Mouse",
+    "category": "Mouse",
+    "price": "9500",
+    "status": "In Stock",
+    "rating": "4.6",
+    "description": "The SteelSeries Rival 650 is a wireless gaming mouse with Quantum Wireless technology and TrueMove3+ dual sensor system for accurate tracking.",
+    "averageRating": "4.6",
+    "brand": "SteelSeries",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "SteelSeriesFan",
+        "rating": "4.5",
+        "comment": "The dual sensor system provides precise tracking on different surfaces.",
+        "date": "2023-07-26"
+      },
+      {
+        "username": "Gamer2023",
+        "rating": "4.7",
+        "comment": "Great wireless performance, and the customizable RGB lighting is a nice touch.",
+        "date": "2023-07-25"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/TbFGrVY/mu110-01-500x500.jpg",
+    "productName": "Corsair Dark Core RGB Pro SE Wireless Gaming Mouse",
+    "category": "Mouse",
+    "price": "10500",
+    "status": "In Stock",
+    "rating": "4.8",
+    "description": "The Corsair Dark Core RGB Pro SE is a wireless gaming mouse with hyper-polling technology and a comfortable contoured shape.",
+    "averageRating": "4.8",
+    "brand": "Corsair",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "FPSMaster",
+        "rating": "5.0",
+        "comment": "The hyper-polling technology ensures no lag during gaming.",
+        "date": "2023-07-24"
+      },
+      {
+        "username": "TechGuru",
+        "rating": "4.9",
+        "comment": "The contoured shape fits my hand perfectly, great for long gaming sessions.",
+        "date": "2023-07-23"
+      }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co/ts1mRpS/h2105d-500x500.jpg",
+    "productName": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+    "category": "Headphone",
+    "price": "25000",
+    "status": "In Stock",
+    "rating": "4.9",
+    "description": "The Sony WH-1000XM4 are premium wireless headphones with industry-leading noise-canceling technology and exceptional sound quality.",
+    "averageRating": "4.9",
+    "brand": "Sony",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "MusicLover",
+        "rating": "5.0",
+        "comment": "The noise-canceling is amazing, and the sound quality is top-notch!",
+        "date": "2023-07-30"
+      },
+      {
+        "username": "TechEnthusiast",
+        "rating": "4.8",
+        "comment": "Comfortable to wear for long periods, perfect for travel.",
+        "date": "2023-07-29"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/QkyMhpL/mhp-01-01-500x500.jpg",
+    "productName": "Bose QuietComfort 45 Wireless Noise-Canceling Headphones",
+    "category": "Headphone",
+    "price": "27000",
+    "status": "In Stock",
+    "rating": "4.7",
+    "description": "The Bose QuietComfort 45 are premium noise-canceling headphones with clear and balanced audio performance.",
+    "averageRating": "4.7",
+    "brand": "Bose",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "Audiophile",
+        "rating": "4.5",
+        "comment": "The sound signature is excellent, and the noise-canceling works well.",
+        "date": "2023-07-28"
+      },
+      {
+        "username": "Traveler123",
+        "rating": "4.8",
+        "comment": "Very comfortable for long flights, highly recommended.",
+        "date": "2023-07-27"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/XD1hYL6/h2178d-black-1-500x500.jpg",
+    "productName": "Sennheiser HD 660 S Open-Back Headphones",
+    "category": "Headphone",
+    "price": "22000",
+    "status": "In Stock",
+    "rating": "4.8",
+    "description": "The Sennheiser HD 660 S are high-quality open-back headphones with exceptional clarity and natural sound reproduction.",
+    "averageRating": "4.8",
+    "brand": "Sennheiser",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "AudioPhileX",
+        "rating": "4.9",
+        "comment": "These open-back headphones provide an immersive listening experience!",
+        "date": "2023-07-26"
+      },
+      {
+        "username": "MusicMaker",
+        "rating": "4.7",
+        "comment": "The natural sound reproduction is perfect for music production.",
+        "date": "2023-07-25"
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/vhWC19S/hv-h2262d-0020-500x500.jpg",
+    "productName": "Audio-Technica ATH-M50x Professional Studio Monitor Headphones",
+    "category": "Headphone",
+    "price": "9000",
+    "status": "In Stock",
+    "rating": "4.9",
+    "description": "The Audio-Technica ATH-M50x are critically acclaimed studio monitor headphones with exceptional audio clarity and durability.",
+    "averageRating": "4.9",
+    "brand": "Audio-Technica",
+    "keyFeatures": {
+      "model": "M288",
+      "speed": "3600MHz (PC4-28800)",
+      "port": "3200MHZ",
+      "type": "Non Moduler",
+      "resolution": "PAC Input 240VAC 5A 47-68Hz",
+      "warranty": "5 Years Limited Warranty"
+    },
+    "review": [
+      {
+        "username": "StudioPro",
+        "rating": "5.0",
+        "comment": "The audio clarity and accurate sound make these perfect for studio work.",
+        "date": "2023-07-24"
+      },
+      {
+        "username": "MusicProducer",
+        "rating": "4.9",
+        "comment": "Comfortable for long studio sessions, and the detachable cable is a nice feature.",
+        "date": "2023-07-23"
+      }
+    ]
   }
 ]
